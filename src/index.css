@@ -1,0 +1,24 @@
+.bg-simpsons{
+    background-color: #f0f9ff;
+}
+body{
+    background-color: #f0f9ff;
+}
+.carta-personaje {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+.carta-personaje:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.12) !important;
+    z-index: 10;
+    background-color: #ffde00;
+}
+.carta-personaje-img {
+    background-color: #f8f9fa;
+    border-radius: 0.75rem;
+}
+.carta-personaje .card-footer{
+    background-color: inherit;
+    border:none
+}
